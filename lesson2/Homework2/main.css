@@ -1,8 +1,27 @@
-.blok1 {
+.blok_1 {
+    background: #fcfcfc;
+    overflow: hidden;
+    width: 800px;
+    margin: 0 0 0 395px ;
+    box-sizing: border-box;
+}
+.blok_2 {
     background: #818181;
     height: 330px;
-    width: 680px;
-    margin: 130px 10px 5px 410px;
+    width: 685px;
+    margin: 130px 10px 25px 13px;
+    box-shadow: #d5b995 -30px -40px 50px 20px ;
+}
 
+.blok_3 {
+    box-sizing: border-box;
+    margin-left: 410px;
+    border-left: 7px solid #ec1a1a;
+    padding-left: 30px;
+    height: 30px;
+}
 
+.text_1 {
+    font-size: 22pt;
+    margin: 0;
 }
