@@ -1,0 +1,48 @@
+
+.inbox-1 {
+    display: flex;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.home-about {
+    display: flex;
+    background: #246abb;
+    height: 94%;
+    width: 49%;
+    font-size: 20pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.kabobs {
+    display: flex;
+    height: 200px;
+    background: #246abb;
+    font-size: 20pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.inbox-2 {
+    display: flex;
+    height: 220px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kabob {
+    display: flex;
+    background: #18467b;
+    height: 80%;
+    width: 32%;
+    font-size: 14pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.memo {
+    font-family: Arial, Verdana, sans-serif;
+    color: white;
+}

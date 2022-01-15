@@ -1,0 +1,39 @@
+.widgets-head {
+    display: flex;
+    height: 200px;
+    background: #246abb;
+    font-size: 20pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget-inbox {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.widget {
+    display: flex;
+    background: #18467b;
+    height: 80%;
+    width: 32%;
+    font-size: 14pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    height: 400px;
+    background: #246abb;
+    font-size: 20pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.memo {
+    font-family: Arial, Verdana, sans-serif;
+    color: white;
+}
