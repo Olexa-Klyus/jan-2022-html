@@ -1,6 +1,6 @@
 .widgets-head {
     display: flex;
-    height: 200px;
+    height: 150px;
     background: #246abb;
     font-size: 20pt;
     align-items: center;
@@ -26,7 +26,7 @@
 
 .contact {
     display: flex;
-    height: 400px;
+    height: 300px;
     background: #246abb;
     font-size: 20pt;
     align-items: center;

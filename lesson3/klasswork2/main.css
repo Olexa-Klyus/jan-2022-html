@@ -1,0 +1,55 @@
+.inbox-main {
+    display: flex;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.inbox-bcdefqh {
+    display: flex;
+    height: 66%;
+    margin: 10px;
+}
+
+.inbox-bcde {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.inbox-cde {
+    display: flex;
+    height: 50%;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.elem-a, .elem-b, .elem-c, .elem-d, .elem-e, .elem-f {
+    display: flex;
+    background: silver;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem-a {
+    height: 34%;
+    margin: 10px 10px 0 10px;
+}
+
+.elem-b {
+    height: 50%;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.elem-c, .elem-d, .elem-e {
+    width: 33%;
+    margin-right: 10px;
+}
+
+.elem-f {
+    width: 25%
+}

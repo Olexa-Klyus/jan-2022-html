@@ -1,7 +1,7 @@
 
 .inbox-1 {
     display: flex;
-    height: 400px;
+    height: 350px;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -18,7 +18,7 @@
 
 .kabobs {
     display: flex;
-    height: 200px;
+    height: 150px;
     background: #246abb;
     font-size: 20pt;
     align-items: center;
