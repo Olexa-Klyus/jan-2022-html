@@ -1,0 +1,58 @@
+.inbox-main {
+    display: flex;
+    height: 600px;
+    min-width: 800px;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.menu-elem {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.icon-elem {
+    display: flex;
+    font-size: 40pt;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #818181;
+    color: #ec9216;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.text-elem {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background: white;
+    font-family: Arial, Verdana, sans-serif;
+    padding: 120px 30px 10px 30px;
+    border: 2px solid #818181;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.text-elem > h3 {
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.text-elem > div > h3 {
+    color: #474747;
+}
+
+.text-elem > p {
+    font-size: 12pt;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #818181;
+}
