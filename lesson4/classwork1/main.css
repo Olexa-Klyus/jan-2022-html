@@ -1,15 +1,20 @@
 .box {
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
 }
 
 .fl-d-column {
     flex-direction: column;
 }
 
-.j-cnt-sps-between {
-    justify-content: space-between
+.j-cnt-sps-evenly {
+    justify-content: space-evenly;
 }
 
 .bgr-dark {
@@ -26,36 +31,37 @@
     height: 150px;
 }
 
+.h280 {
+    height: 280px;
+}
+
 .h300 {
     height: 300px;
 }
 
-.w200 {
-    width: 200px;
+/*width*/
+.w150 {
+    width: 150px;
 }
 
-.w600 {
-    width: 600px;
+.w240 {
+    width: 240px;
 }
 
 .w800 {
     width: 800px;
 }
 
+.w-max {
+    width: 100%
+}
+
 .mrg-10-30 {
     margin: 10px 30px;
 }
 
-.mrg-l-10 {
-    margin-left: 10px;
-}
-
-.mrg-r-10 {
-    margin-right: 10px;
-}
-
-.mrg-bt-10 {
-    margin-bottom: 10px;
+.mrg0 {
+    margin: 0;
 }
 
 .brd-rad40 {
@@ -65,7 +71,6 @@
 .brd-rad10 {
     border-radius: 10px;
 }
-
 
 .brd-blue {
     border: 2px solid cornflowerblue;
