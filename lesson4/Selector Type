@@ -1,2 +1,21 @@
-class = "clasname>teg"
-class = "clasname teg"
+звернення в css
+ul.exmpl-class {}       до тегу ul з класом examplClass
+.exmpl-class li {}      до тегів li (в т.ч. вкладених) з класом examplClass
+.exmpl-class>p {}       до тегу p першого вкладення (прямого нащадка)
+
+
+<div class = "xxx yyy zzz"></div>       створюємо div з багатьма класами
+
+.xxx.yyy.zzz {}                         звернення до всіх елементів з набором таких класів
+div.xxx.yyy.zzz {}                      тільки до diva
+div, .xxx, .yyy {}                      до всіх, що мають щось з перерахованого
+
+div:ntx-child(n) {}                     до div з порядковим номером n
+або
+.exmpl-class:ntx-child(n) {}           через клас
+n - формула
+
+.exmpl-class:ntx-child(n)>div {}       до div всередині дочірного
+                                       елемента з номерм n
+
+властивості повязані з шрифтом наслідуються

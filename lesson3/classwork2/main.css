@@ -1,6 +1,7 @@
 .inbox-main {
     display: flex;
     height: 600px;
+    width: 800px;
     border: 3px solid black;
     border-radius: 10px;
     flex-direction: column;
