@@ -1,7 +1,7 @@
 .box-main {
     border: 3px solid black;
     border-radius: 20px;
-    width: 1000px;
+    width: 800px;
 }
 
 .fl-d-column {
@@ -20,20 +20,20 @@
     background: #d9d9d9;
 }
 
-.h250 {
-    height: 250px;
+.h200 {
+    height: 200px;
 }
 
-.h500 {
-    height: 500px;
+.h400 {
+    height: 400px;
 }
 
-.w250 {
-    width: 250px;
+.w200 {
+    width: 200px;
 }
 
-.w750 {
-    width: 770px;
+.w600 {
+    width: 600px;
 }
 
 .mrg-10 {
