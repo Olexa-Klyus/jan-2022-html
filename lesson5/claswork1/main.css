@@ -1,0 +1,69 @@
+.inbox {
+    display: flex
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#el-1 {
+    height: 50px;
+}
+
+#el-2 {
+    height: 670px;
+}
+
+#el-3 {
+    height: 150px;
+}
+
+#el-4 {
+    height: 120px;
+}
+
+#el-5 {
+    height: 300px;
+}
+
+#el-6 {
+    height: 300px;
+}
+
+#el-7 {
+    height: 100px;
+}
+
+.fl-d-column {
+    flex-direction: column;
+}
+
+.j-cnt-sps-between {
+    justify-content: space-between
+}
+
+.bgr-silv {
+    background: lightyellow;
+}
+
+.w800 {
+    width: 800px;
+}
+
+
+.w650 {
+    width: 650px;
+}
+
+.w500 {
+    width: 500px;
+}
+
+
+.w150 {
+    width: 150px;
+}

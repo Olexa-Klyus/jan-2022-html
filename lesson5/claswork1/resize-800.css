@@ -1,0 +1,29 @@
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .inbox.w650 {
+        flex-direction: column;
+    }
+
+    #el-2 {
+        display: none;
+    }
+
+    .bgr-silv {
+        width: 600px;
+    }
+
+    #el-3 {
+        height: 120px;
+    }
+
+    #el-4 {
+        height: 170px;
+    }
+
+    #el-5 {
+        height: 180px;
+    }
+
+    #el-6 {
+        height: 100px;
+    }
+}

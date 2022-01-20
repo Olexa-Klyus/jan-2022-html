@@ -1,6 +1,10 @@
-@media screen and (min-width: 0px) and (max-width: 800px) {
+@media screen and (min-width: 0px) and (max-width: 922px) {
     .main-box {
         background: #29d7e7;
+    }
+
+    .box.w922 {
+        width: 280px;
     }
 
     .inbox {
