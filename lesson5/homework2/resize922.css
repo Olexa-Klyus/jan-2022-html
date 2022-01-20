@@ -1,0 +1,59 @@
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .main-box {
+        background: #29d7e7;
+    }
+
+    .inbox {
+        flex-direction: column;
+    }
+
+    .box.w810.h200 {
+        width: 200px;
+        height: 50px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    .box.w600.h400 {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        margin-bottom: 20px
+    }
+
+
+    .box.w200.h400 {
+        height: 50px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .box.w200.h410 {
+        height: 50px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .box.w600.h200 {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .box.w193.h200 {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .box.j-cnt-sps-between {
+        width: 200px;
+    }
+
+    #h {
+        height: 150px;
+    }
+}
+
