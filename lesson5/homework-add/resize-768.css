@@ -1,0 +1,61 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+    .inbox.w820 {
+        width: 400px;
+    }
+
+    .inbox-1 {
+        flex-direction: column;
+    }
+
+    #el-1 {
+        width: 120px;
+        height: 100px;
+    }
+
+    #el-2 {
+        width: 270px;
+        height: 100px;
+    }
+
+    #el-3 {
+        width: 390px;
+        height: 100px;
+    }
+
+    #el-4 {
+        width: 390px;
+        height: 200px;
+    }
+
+    #el-5 {
+        width: 120px;
+        height: 200px;
+    }
+
+    #el-6 {
+        width: 390px;
+        height: 310px;
+    }
+
+    #el-7 {
+        width: 390px;
+        height: 150px;
+    }
+
+    #el-8, #el-9 {
+        display: none;
+    }
+
+    #el-8-2, #el-9-2 {
+        display: flex;
+        width: 195px;
+        height: 100px;
+    }
+
+    #el-10 {
+        width: 390px;
+        height: 100px;
+
+    }
+}

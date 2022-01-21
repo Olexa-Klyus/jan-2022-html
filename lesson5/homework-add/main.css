@@ -1,0 +1,71 @@
+.inbox, .inbox-1 {
+    display: flex
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: #686868;
+    color: white;
+    border: 1px solid #272727;
+    margin: 5px;
+}
+
+#el-1 {
+    width: 140px;
+    height: 60px;
+}
+
+#el-2 {
+    width: 650px;
+    height: 60px;
+}
+
+#el-3 {
+    width: 140px;
+    height: 300px;
+}
+
+#el-4 {
+    width: 500px;
+    height: 200px;
+}
+
+#el-5 {
+    width: 140px;
+    height: 200px;
+}
+
+#el-6 {
+    width: 500px;
+    height: 310px;
+}
+
+#el-7 {
+    width: 140px;
+    height: 310px;
+}
+
+#el-8, #el-9 {
+    width: 140px;
+    height: 100px;
+}
+
+#el-8-2, #el-9-2 {
+    display: none;
+}
+
+#el-10 {
+    width: 800px;
+    height: 100px;
+}
+
+.fl-d-column {
+    flex-direction: column;
+}
+
+.w820 {
+    width: 820px;
+}
