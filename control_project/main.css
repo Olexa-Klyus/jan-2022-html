@@ -318,7 +318,7 @@
 
 /*-----content_5-6-7_block----три подібні блоки в центрі-----------*/
 
-.content_5-6-7_block {
+.content_5_block {
     display: flex;
     width: 1440px;
     justify-content: space-between;
@@ -326,18 +326,18 @@
     margin-top: 219px;
 }
 
-.content_5, .content_6, .content_7 {
+.content_5-1, .content_5-2, .content_5-3 {
     display: flex;
     margin-left: 148px;
     margin-right: 32px;
     justify-content: space-between;
 }
 
-.content_6 {
+.content_5-2 {
     margin-top: 121px;
 }
 
-.content_7 {
+.content_5-3 {
     position: relative;
     margin-top: 97px;
 }
@@ -350,13 +350,13 @@
 
 }
 
-.content_5-6-7_icon {
+.content_5_icon {
     margin-top: 12px;
     width: 40px;
     height: 40px;
 }
 
-.content_6_img {
+.content_5_img {
     width: 513px;
     height: 348px;
 }
@@ -371,14 +371,14 @@
     height: 397px;
 }
 
-.content_5-6-7_h4 {
+.content_5_h4 {
     margin-top: 23px;
     height: 40px;
     font-size: 34px;
     color: #0B2330;
 }
 
-.content_5-6-7_txt {
+.content_5_txt {
     margin-top: 29px;
     font-size: 17px;
     color: #375361;
