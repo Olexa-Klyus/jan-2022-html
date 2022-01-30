@@ -15,7 +15,6 @@
 
 .header {
     width: 1440px;
-    border: 1px solid var(--dark-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -445,7 +444,7 @@
     padding-left: 0;
 }
 
-.accordion-button > span{
+.accordion-button > span {
     color: var(--dark-color);
     font-size: 24px;
 }
@@ -556,7 +555,7 @@
 
 .box-8-wrap-1 {
     width: 562px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0 0 10px;
 }
 
 .box-8-1-txt-1 {
@@ -593,7 +592,7 @@
     /*margin-right: 32px;*/
     background: url("images/box-8-imgfon.svg"), #f8c501;
     background-repeat: no-repeat;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0 10px 10px 0;
 }
 
 .box-8-2-txt {
@@ -652,7 +651,7 @@
     background: var(--dark-color);
 }
 
-.box-9-h3{
+.box-9-h3 {
     font-size: 42px;
     line-height: 48px;
     text-align: center;
@@ -661,7 +660,7 @@
 }
 
 
-.box-9-txt{
+.box-9-txt {
     width: 642px;
     height: 56px;
     font-size: 17px;
@@ -686,7 +685,61 @@
     width: 1440px;
     height: 678px;
     display: flex;
+    flex-direction: column;
     background: var(--dark-color);
+}
+
+.box-10-wrap {
+    display: flex;
+}
+
+.box-10-logo {
+    width: 126px;
+    height: 48px;
+    margin: 80px 109px 0 32px;
+}
+
+.box-10-menu-wrap {
+    display: flex;
+    margin-top: 80px;
+}
+
+.box-10-menu {
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+}
+.box-10-menu-item {
+    margin-bottom: 14px;
+}
+
+.box-10-menu-item a {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #94A0A4;
+}
+
+.box-10-menu-item:nth-child(1) {
+    margin-bottom: 13px;
+}
+
+.box-10-menu-item:nth-child(1) a {
+    color: #F9C600;
+}
+
+.box-10-bottom-wrap {
+    display: flex;
+    margin: 55px 150px 0 268px;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 20px;
+    color: #94A0A4;
+}
+
+.box-10-icon-wrap {
+    display: flex;
+    column-gap: 24px;
 }
 
 /*--------------buttons--------------------*/
@@ -746,6 +799,7 @@
     margin-top: 36px;
     background: var(--yellow-color);
 }
+
 .btn_small_wrap {
     position: absolute;
     bottom: -12px;
