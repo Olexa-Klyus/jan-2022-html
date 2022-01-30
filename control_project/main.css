@@ -10,7 +10,7 @@
 :root {
     --dark-color: #0B2330;
     --white-color: #FFFFFF;
-    --gray-color: #939fa3;
+    --blue-color: var(--blue-color );
     --yellow-color: #f8c501;
 }
 
@@ -75,7 +75,7 @@
 .menu_item a:hover {
     box-shadow: 0 0 20px 0 rgba(50, 50, 50, 1);
     background: #9f9f9f;
-    border: 0 solid #9F9F9FFF;
+    border: 0 solid #9F9F9F;
     border-radius: 20px;
     color: white;
 }
@@ -98,20 +98,20 @@
 
 .content_top_h2 {
     width: 436px;
+    height: 256px;
     display: flex;
     text-align: left;
-
-}
-
-.content_top_h2 > p {
     font-size: 60px;
     line-height: 64px;
 }
 
-.content_top_txt > p {
+.content_top_txt  {
+    width: 435px;
+    height: 96px;
     font-size: 22px;
     line-height: 32px;
-    color: #375361;
+    color: var(--blue-color );
+    margin-top: 32px;
 }
 
 .content_top_btn_wrap {
@@ -119,6 +119,7 @@
     align-items: start;
     justify-content: left;
     column-gap: 16px;
+    margin-top: 38px;
 }
 
 .content_top_wrap__2 {
@@ -140,7 +141,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 92px;
+    margin-top: 189px;
 }
 
 .logos_partners_h3 {
@@ -378,12 +379,12 @@
     height: 348px;
 }
 
-.content_6_img {
+.content_5-2_img {
     width: 513px;
     height: 329px;
 }
 
-.content_7_img {
+.content_5-3_img {
     width: 513px;
     height: 397px;
 }
@@ -398,7 +399,7 @@
 .content_5_txt {
     margin-top: 29px;
     font-size: 17px;
-    color: #375361;
+    color: var(--blue-color );
     width: 500px;
 }
 
@@ -423,7 +424,7 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 1.4px;
-    color: #375361;
+    color: var(--blue-color );
 }
 
 .box_6_h3 {
@@ -466,7 +467,7 @@
 
 .accordion-body > span {
     margin-bottom: 23px;
-    color: #375361;
+    color: var(--blue-color );
 }
 
 .accordion-item {
@@ -517,7 +518,7 @@
     line-height: 24px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    color: #375361;
+    color: var(--blue-color );
 }
 
 .box-7-h3 {
@@ -535,7 +536,7 @@
     margin-top: 37px;
     font-size: 17px;
     line-height: 28px;
-    color: #375361;
+    color: var(--blue-color );
 }
 
 .box-7-img {
@@ -581,7 +582,7 @@
     line-height: 24px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    color: #375361;
+    color: var(--blue-color );
 }
 
 .box-8-1-h3 {
@@ -700,7 +701,7 @@
 .decor-line {
     width: 1376px;
     height: 1px;
-    border-top: 1px solid #375361;
+    border-top: 1px solid var(--blue-color );
 }
 
 
@@ -758,18 +759,20 @@
     line-height: 20px;
     color: #94A0A4;
 }
-.box-10-txt{
+
+.box-10-txt {
     display: flex;
     width: 301px;
     height: 20px;
 
 }
+
 .box-10-btn-wrap {
     display: flex;
     column-gap: 24px;
-    }
+}
 
-.box-10-btn{
+.box-10-btn {
     display: flex;
     width: 28px;
     height: 28px;
@@ -778,6 +781,7 @@
     background: none;
     transition: box-shadow .2s;
 }
+
 .box-10-btn:hover {
     box-shadow: 0 0 20px 0 white;
 }
