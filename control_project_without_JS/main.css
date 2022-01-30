@@ -460,7 +460,25 @@
     color: var(--dark-color);
     font-size: 24px;
     cursor: pointer;
+    transition: background 0.2s ease-out;
 }
+
+.list-title:hover{
+    background: #f68c99;
+}
+.list-input{
+    appearance: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+
+
+.list-input:checked + .list-txt {
+    display: block;
+}
+
 
 .list-txt  {
     font-size: 17px;
@@ -468,18 +486,6 @@
     display: none;
     color: var(--dark-color);
 }
-
-
-.accordion span {
-    margin-bottom: 23px;
-    color: var(--blue-color );
-}
-
-.accordion-item {
-    font-size: 24px;
-    background: #f1e6ec;
-}
-
 
 
 
